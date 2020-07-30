@@ -4,6 +4,7 @@
       "target": "es2015",
       "experimentalDecorators": true,
       "emitDecoratorMetadata": true,
+      "moduleResolution": "node",
       "noEmitHelpers": true,
       "noEmitOnError": true,
       "skipLibCheck": true,
@@ -17,11 +18,8 @@
           ]
       }
   },
-  "include": [
-    "references.d.ts",
-    "src/tests/**/*.ts"
-  ],
   "files": [
+    "./references.d.ts",
     "./src/main.ts"
   ],
   "exclude": [
