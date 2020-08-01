@@ -1,4 +1,4 @@
-@NativeClass
+@NativeClass()
 export class AppDelegate extends UIResponder implements UIApplicationDelegate {
   static ObjCProtocols = [UIApplicationDelegate];
 
